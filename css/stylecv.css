@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.topnav {
+  opacity: 0.5;
+  background-color: #000;
+  overflow: hidden;
+  width: 100%;
+  text-transform: uppercase;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: forte;
+}
+/*awal about==============================================================*/
+.aboutme {
+  background-color: #60C451;
+}
+.me {
+  width: 25%;
+  border-radius: 49%;
+}
+.me:hover {
+  -webkit-:mymove 3s infinite;
+  transition: 1s;
+  width: 35%;
+  cursor: pointer;
+}
+.isi {
+  background-color: #e2e2e2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*akhir about=============================================================*/
+/*awal skill dan academy============================================================*/
+.skill {
+  background-color: #88BA80;
+}
+.box {
+  background-color: #60C451;
+}
+.boks {
+  background-color: #000;
+  color: #fff
+}
+.boks {
+  border-radius: 50%;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container > p {
+  margin: 10px;
+  padding: 20px;
+}
+.logo_academy {
+  width: 80%;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+.logo_academy:hover {
+  -webkit-:mymove 3s infinite;
+  transition: 1s;
+  width: 100%;
+  cursor: pointer;
+}
+/*akhir skill dan academy===========================================================*/
+footer {
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+}
+h1 {
+  font-family: matura mt script capitals;
+}

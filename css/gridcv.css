@@ -1,0 +1,59 @@
+/* setting row/wrapper kolom */
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+/* setting padding/ jarak isi konten */
+[class*="kol-"] {
+    float: left;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+     /*border: solid black 1px; */
+}
+
+
+/* setting kolom untuk tampilan komputer */
+  .kol-1 {width: 8.33%;}
+  .kol-2 {width: 16.66%;}
+  .kol-3 {width: 24.99%;}
+  .kol-4 {width: 33.32%;}
+  .kol-5 {width: 41.65%;}
+  .kol-6 {width: 49.98%;}
+  .kol-7 {width: 58.31%;}
+  .kol-8 {width: 66.64%;}
+  .kol-9 {width: 74.97%;}
+  .kol-10 {width: 83.3%;}
+  .kol-11 {width: 91.63%;}
+  .kol-12 {width: 100%;}
+
+/* untuk tampilan mobile: */
+@media only screen and (max-width: 768px) {
+  [class*="kol-"] {
+    width: 100%;
+  }
+}
+
+/* tampilan xtra kecil */
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .kol-s-1 {width: 8.33%;}
+  .kol-s-2 {width: 16.66%;}
+  .kol-s-3 {width: 24.99%;}
+  .kol-s-4 {width: 33.32%;}
+  .kol-s-5 {width: 41.65%;}
+  .kol-s-6 {width: 49.98%;}
+  .kol-s-7 {width: 58.31%;}
+  .kol-s-8 {width: 66.64%;}
+  .kol-s-9 {width: 74.97%;}
+  .kol-s-10 {width: 83.3%;}
+  .kol-s-11 {width: 91.63%;}
+  .kol-s-12 {width: 100%;}
+}
+
+/* alignment object atau text */
+.center{text-align: center;}
+.justify{text-align: justify;}
+.right{text-align: right;}
+.left{text-align: left;}
